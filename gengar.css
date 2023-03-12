@@ -1,27 +1,43 @@
 body{
-    background-color: rgb(255, 252, 95);
+    background-color: rgb(255, 209, 122);
 
 }
-mark{
-    background-color: rgb(255, 145, 111);
-    padding: 7px;
 
-}
-p{
-    font-family: 'Press Start 2P', cursive;
+h1 {
+    text-align: center;
+    margin-top: 0;
+  }  
 
-}
-h3{
+  h3{
     font-family: 'Press Start 2P', cursive;
     text-align: center;
 
 }
+
+mark{
+    background-color: rgb(181, 91, 255);
+    padding: 7px;
+
+}
+
+p{
+    font-family: 'Press Start 2P', cursive;
+    
+
+}
+
 button{
 
-    background-color: brown;
+    background-color: rgb(255, 73, 73);
     align-self: center;
     font-family: 'Press Start 2P', cursive;
     color: azure;
-    border-color: brown;
+    border-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 50%;
+    bottom: 200px;
+    transform: translateX(-50%);
+    font-size: 24px;
+    border-radius: 10px;
 
 }
